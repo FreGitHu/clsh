@@ -13,7 +13,7 @@ int HelpCommand::execute(const std::vector<std::string> &args) {
         auto it = builtins.find(args[1]);
         if (it != builtins.end()) {
             std::println("Help for {}:", args[1]);
-            std::println(it->second->help());
+            std::println("{}", it->second->help());
         } else {
             std::println("Command {} not found.", args[1]);
             return 1;
