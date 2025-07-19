@@ -32,6 +32,6 @@ std::string HelpCommand::short_help() {
 }
 
 std::string HelpCommand::help() {
-    return "help [command] - If an argument is given, it'll provide help about that command. If an argument is not given, it'll list all commands.";
+    return "help [command]\nIf an argument is given, it'll provide help about that command.\nIf an argument is not given, it'll list all commands.";
 }
 
