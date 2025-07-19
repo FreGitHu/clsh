@@ -7,4 +7,6 @@ add_executable(clsh main.cpp
         commands/ExitCommand.cpp
         commands/ExitCommand.h
         builtins.cpp
-        builtins.h)
+        builtins.h
+        commands/HelpCommand.cpp
+        commands/HelpCommand.h)
