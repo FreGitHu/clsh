@@ -5,7 +5,9 @@
 #include "builtins.h"
 
 ExitCommand exitCmd;
+HelpCommand helpCmd;
 
 std::unordered_map<std::string, Command*> builtins = {
-    {"exit", &exitCmd}
+    {"exit", &exitCmd},
+    {"help", &helpCmd}
 };
