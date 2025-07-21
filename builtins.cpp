@@ -6,8 +6,11 @@
 
 ExitCommand exitCmd;
 HelpCommand helpCmd;
+EchoCommand echoCmd;
 
 std::unordered_map<std::string, Command*> builtins = {
     {"exit", &exitCmd},
-    {"help", &helpCmd}
+    {"help", &helpCmd},
+    {"echo", &echoCmd},
+    {"print", &echoCmd}
 };

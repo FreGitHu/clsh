@@ -10,6 +10,7 @@
 
 #include "commands/ExitCommand.h"
 #include "commands/HelpCommand.h"
+#include "commands/EchoCommand.h"
 
 extern std::unordered_map<std::string, Command*> builtins;
 
