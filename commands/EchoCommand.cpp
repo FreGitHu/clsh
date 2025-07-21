@@ -13,6 +13,7 @@ int EchoCommand::execute(const std::vector<std::string> &args) {
             std::print(" ");
         }
     }
+    std::println();
     return 0;
 }
 
