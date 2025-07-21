@@ -9,4 +9,6 @@ add_executable(clsh main.cpp
         builtins.cpp
         builtins.h
         commands/HelpCommand.cpp
-        commands/HelpCommand.h)
+        commands/HelpCommand.h
+        commands/EchoCommand.cpp
+        commands/EchoCommand.h)
